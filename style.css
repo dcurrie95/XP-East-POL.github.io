@@ -16,3 +16,7 @@ section img, video {
   width:100%;
   outline:1px solid black;
 }
+
+.audio-menu {
+  display:none;
+}
