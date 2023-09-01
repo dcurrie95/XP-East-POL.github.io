@@ -7,10 +7,10 @@ function toggleMusic() {
   if(musicState) {musicState = false;} else {musicState = true;}
   
   if(musicState) {
-    //audio.play();
+    audio.play();
     toggleImg.src = "media/music.png";
   } else {
-    //audio.pause();
+    audio.pause();
     toggleImg.src = "media/music-off.jpg";
   }
 }
