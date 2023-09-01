@@ -20,3 +20,7 @@ section img, video {
 .audio-menu {
   display:none;
 }
+
+.mus-menu-trigger:hover .audio-menu {
+  display:block;
+}
